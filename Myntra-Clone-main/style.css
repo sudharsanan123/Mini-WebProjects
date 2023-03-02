@@ -34,7 +34,6 @@ header{
 }
 
 /*---Start of Footer---*/
-
 #footer {
   height: auto;
   width: 100%;
@@ -47,7 +46,6 @@ header{
   background-color: #222;
   padding-top: 25px;
 }
-
 #footer_content {
   margin-left: 6%;
   margin-right: 6%;
@@ -254,6 +252,7 @@ header{
   height: 60px;
   padding: 8px 0px;
   margin-bottom: 0px;
+  max-resolution: 0;
 }
 
 #form form div label {
@@ -430,8 +429,11 @@ header{
     flex-direction: column;
   }
 
+  
   .rightBox{
     display: flex;
     margin: 12px;
   }
 }
+
+
