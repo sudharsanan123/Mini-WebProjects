@@ -25,3 +25,4 @@ const timer = new Timer(durationInput, startButton, pauseButton, {
         console.log('Timer completed!')
     }
 })
+
